@@ -1,0 +1,152 @@
+@keyframes divcolor {
+
+    0% {
+        margin-left: 50%;
+        opacity: 0%;
+    }
+
+
+
+    25% {
+        margin-left: 45%;
+        opacity: 25%;
+        rotate: 180deg
+    }
+
+
+
+    50% {
+        margin-left: 40%;
+        opacity: 50%;
+    }
+
+    100% {
+        margin-left: 35%;
+
+        opacity: 100%;
+        rotate: 360deg
+    }
+
+
+
+}
+
+@keyframes imgs {
+
+    0% {
+
+        width: 0px;
+        height: 0px;
+    }
+
+    ;
+
+    25% {
+
+        rotate: 180deg
+    }
+
+    ;
+
+    50% {}
+
+    100% {
+
+        width: 500px;
+        height: 500px;
+        rotate: 359deg
+    }
+
+    ;
+}
+
+
+div{
+    animation-name: divcolor;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    margin-left: 35%;
+    margin-top: 0%;
+    width: 100px;
+    height: 100px;
+
+}
+
+div img{
+    animation-name: imgs;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+@keyframes imghov {
+    0% {
+        width: 500px;
+        height: 500px;
+        rotate: 359deg
+    }
+
+    25% {
+        width: 600px;
+        height: 600px;
+        rotate: 330deg
+    }
+
+    50% {
+        width: 600px;
+        height: 600px;
+        rotate: 390deg
+    }
+
+    100% {
+        width: 600px;
+        height: 600px;
+        rotate: 359deg
+    }
+
+
+
+
+}
+
+div img:hover {
+    animation-name: imghov;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+
+}
+
+@keyframes Imgb {
+    0% {
+        opacity: 0%;
+    }
+
+    25% {
+        opacity: 0%;
+    }
+
+    50% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+
+}
+
+
+
+.anime {
+    margin-left: 35%;
+    height: 30%;
+    width: 30%;
+    border-radius: 100%;
+    animation-name: Imgb;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+
+}
